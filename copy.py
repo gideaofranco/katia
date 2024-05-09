@@ -65,3 +65,6 @@ with open(ARQUIVO_ENTRADA, mode='r', encoding="utf8") as leitorArquivo:
 
             if (total_linhas % 100000 == 0):
                 print(f"{total_linhas} linhas processadas/{linhas_coletadas} linhas coletadas")
+
+
+print(f"FIM - {total_linhas} linhas processadas/{linhas_coletadas} linhas coletadas")
