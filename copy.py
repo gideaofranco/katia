@@ -42,7 +42,7 @@ with open(ARQUIVO_ENTRADA, mode='r', encoding="utf8") as leitorArquivo:
                 modo_extracao_cel  = linhaLida[23] # 23 - Modo de Extração
                 pontuacao_fake_cel = linhaLida[24] # 24 - Portuação de Fake News (0=Fake, 10=Não Fake)
 
-                linhaParaEscrever =[]
+                linhaParaEscrever = []
                 linhaParaEscrever.append(xid_cel)
                 linhaParaEscrever.append(tema_cel)
                 linhaParaEscrever.append(id_perfil_cel)
